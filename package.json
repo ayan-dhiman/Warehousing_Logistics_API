@@ -2,9 +2,9 @@
   "name": "warehousing_logistics_api",
   "version": "1.0.0",
   "description": "Warehousing and logistics API using Node.js & Express.js",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "author": "Ayan Dhiman",
   "license": "ISC",
