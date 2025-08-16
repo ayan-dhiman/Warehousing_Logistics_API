@@ -12,7 +12,7 @@ exports.addWarehouse = async (req, res) => {
 
     }catch(err)
     {
-        res.status(400).json({error: `Error while adding new Warehouse !`})
+        res.status(400).json({error: `Error while adding new Warehouse`})
     }
 
 };
