@@ -6,7 +6,7 @@ exports.addProduct = async (req, res) => {
 
     try {
 
-        const newProduct = await Product.create({name, description, price, quantity, wid});
+        const new_Product = await Product.create({name, description, price, quantity, wid});
 
         res.status(200).json(newProduct);
 
