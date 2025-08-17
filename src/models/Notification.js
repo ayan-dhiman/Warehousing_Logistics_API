@@ -7,7 +7,7 @@ const Notification = sequelize.define('notifications',{
         primaryKey: true,
         autoIncrement: true
     },
-    uid: {
+    u_id: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
