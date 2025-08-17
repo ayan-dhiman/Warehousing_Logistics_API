@@ -7,7 +7,7 @@ const Notification = sequelize.define('notifications',{
         primaryKey: true,
         autoIncrement: true
     },
-    uid: {
+    u_id: {
         type: DataTypes.INTEGER,
         allowNull: false
     },
@@ -17,11 +17,11 @@ const Notification = sequelize.define('notifications',{
     },
     type: {
         type: DataTypes.STRING,
-        allowNull: true
+        allowNull: false
     },
     notificationDate: {
         type: DataTypes.DATE,
-        allowNull: false
+        allowNull: true
     }
 });
 
