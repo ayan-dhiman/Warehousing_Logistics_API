@@ -13,7 +13,7 @@ const Notification = sequelize.define('notifications',{
     },
     message: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
     type: {
         type: DataTypes.STRING,
