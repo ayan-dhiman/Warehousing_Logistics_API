@@ -17,7 +17,7 @@ const Notification = sequelize.define('notifications',{
     },
     type: {
         type: DataTypes.STRING,
-        allowNull: true
+        allowNull: false
     },
     notificationDate: {
         type: DataTypes.DATE,
